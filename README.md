@@ -23,6 +23,38 @@
 
 ```bash
 git clone https://github.com/yourusername/eva-voice-assistant.git
+```
 
 2.Navigate to the project directory:
+```bash
+cd eva-voice-assistant
+```
+3.Install required dependencies:
+```bash
+pip install -r requirements.txt
+```
+Usage
 
+1.Run the assistant:
+```bash
+python eva.py
+```
+
+2.Say “Hey Eva” to activate the assistant.
+
+3.Speak a command or teach a new command using:
+```bash
+when I say <trigger> reply <response>
+```
+
+4.Built-in commands include:
+
+“play song” → plays a song from YouTube
+
+“tell me a joke” → EVA tells a random joke
+
+“what is the time” → EVA announces the current time
+
+“calculate <expression>” → EVA performs simple math
+
+5.To stop EVA, say “stop”, “exit”, or “bye”.
